@@ -85,7 +85,7 @@ There are no security concerns.
 2. Open the disk image;  
 3. Drag the _NuAppFirewall.app_ to the _Applications_ folder
 
-<img width="928" alt="Captura de Tela 2025-05-16 às 10 05 36" src="https://github.com/user-attachments/assets/4c45bbd9-431a-4428-9cac-d5644f52fe2a" />
+<img width="928" alt="Captura de Tela 2025-05-16 às 10 05 36" src="https://github.com/user-attachments/assets/a818a38c-d1b2-4546-a471-66d1586404e8" />
 
 4. Create the path where the rules will be stored:  
 ```bash
