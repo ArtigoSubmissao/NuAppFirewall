@@ -62,10 +62,6 @@ This repository is organized as follows:
 └── file.txt
 ```
 
-# Considered Badges
-
-The considered badges are: **Available** and **Functional**.
-
 # Basic Information  
 These are the minimum requirements to run the tool:  
 
