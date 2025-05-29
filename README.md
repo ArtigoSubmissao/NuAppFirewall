@@ -146,7 +146,8 @@ Grant the requested permission.
 2. Search for 'com.nufuturo.nuappfirewall.extension';
 3. Double-click the process that appears;
 4. Click 'Quit', then 'Force Quit';
-5. Enter your computer password.
+5. Enter your computer password;
+6. Search for 'com.nufuturo.nuappfirewall.app' and follow the steps 3-5.
 
 The extension will be deactivated. To confirm, run the following command:
 ```bash
