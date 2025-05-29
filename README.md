@@ -79,6 +79,8 @@ There are no security concerns.
 
 # Installation
 
+Please be advised that the installation described below will block your access to the following browsers: **Firefox** and **Arc**. This restriction can be reverted by uninstalling the application and its extension, as described in the [Uninstallation](#uninstallation) section.
+
 ## Run via DMG
 
 1. Download the disk image [_NuAppFirewall.dmg_](./NuAppFirewall.dmg) in this repository's root directory;
@@ -92,7 +94,7 @@ There are no security concerns.
 sudo mkdir -p "/private/var/root/Library/Group Containers/27XB45N6Y5.com.nufuturo.nuappfirewall/Library/Application Support/"
 ```
 
-5. Download the [rules file](./Rules/rules.json) available in the repository;
+5. Download the [rules file](./Rules/Demo/rules.json) available in the repository;
 
 6. Move the rules file to the path where the extension will read the rules:
 ```bash
@@ -128,7 +130,7 @@ sudo mkdir -p "/private/var/root/Library/Group Containers/27XB45N6Y5.com.nufutur
 
 4. Move the rules file to the path where the extension will read the rules:
 ```bash
-sudo mv ./Rules/rules.json /private/var/root/Library/Group\ Containers/27XB45N6Y5.com.nufuturo.nuappfirewall/Library/Application\ Support/
+sudo mv ./Rules/Demo/rules.json /private/var/root/Library/Group\ Containers/27XB45N6Y5.com.nufuturo.nuappfirewall/Library/Application\ Support/
 ```
 
 5. Build and run the project in the terminal:
