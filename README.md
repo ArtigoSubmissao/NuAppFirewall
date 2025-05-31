@@ -2,9 +2,11 @@
 [![Licença GPL-2.0](https://img.shields.io/badge/Licença-GPLv2-blue.svg)](LICENSE)
 
 NuAppFirewall is a firewall developed for macOS using Swift. The main goal is to implement a PoC of our content-filter, which will operate in passive-allow mode. The generated logs should use macOS's infrastructure and must comply with the requirements raised iteratively and incrementally.
-This project follows an adaptation of Nubank's Diplomat architecture, customized for a native application.
 
 **Paper Abstract**: Managing network access is essential to ensure the security of both users and corporate ecosystems. On macOS, this control is implemented through Content Filters in firewall applications. However, the state of the practice consists mainly of proprietary consumer tools, while open-source alternatives lack the modularity needed for enterprise adoption. This paper introduces NuAppFirewall, an open-source application firewall developed and deployed in production at Nubank. It includes more than 250,000 automatically generated rules for macOS applications, derived from Nubank's validated accesses, minimizing VPN usage and providing a security foundation that other organizations can leverage for their own implementations.
+
+# Video Demonstration
+There is a video demonstration of how to install, execute and uninstall NuAppFirewall [here](https://drive.google.com/drive/folders/1EvRj3IQ9uwk2gCe9ATPQnpVpm5GmWWUP).
 
 # README.md Structure
 This repository is organized as follows:
